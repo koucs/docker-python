@@ -1,0 +1,6 @@
+kaggle.json
+input/*
+!input/titanic.zip
+!input/README.md
+working/*
+.ipynb_checkpoints
