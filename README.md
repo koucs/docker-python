@@ -25,3 +25,4 @@ $ docker run --gpus all -p 8080:8080 -v `pwd`:/kaggle -d --name kaggle --restart
 ## Reference
 
 - [Kaggle公式DockerイメージをGCPにデプロイしてGPU計算環境を準備する](https://qiita.com/shin27/items/50bf1df1b2bae3dba032)
+- [待ってました CUDA on WSL 2](https://qiita.com/ksasaki/items/ee864abd74f95fea1efa)
