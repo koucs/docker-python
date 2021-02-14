@@ -63,7 +63,7 @@ Epoch 5/5
 
 ## Ubuntu 18.04に変更した後
 
-```
+```python
 Epoch 1/5
 1224/1224 [==============================] - 1048s 127ms/step - loss: 3.3674 - accuracy: 0.0342 - val_loss: 3.3674 - val_accuracy: 0.0345
 Epoch 2/5
@@ -76,3 +76,60 @@ Epoch 5/5
 1224/1224 [==============================] - 53s 43ms/step - loss: 3.3675 - accuracy: 0.0337 - val_loss: 3.3673 - val_accuracy: 0.0345
 ```
 
+```python
+Epoch 1/5
+1224/1224 [==============================] - 939s 49ms/step - loss: 3.3675 - accuracy: 0.0331 - val_loss: 3.3673 - val_accuracy: 0.0345
+Epoch 2/5
+1224/1224 [==============================] - 51s 42ms/step - loss: 3.3675 - accuracy: 0.0324 - val_loss: 3.3673 - val_accuracy: 0.0345
+Epoch 3/5
+1224/1224 [==============================] - 51s 42ms/step - loss: 3.3675 - accuracy: 0.0344 - val_loss: 3.3673 - val_accuracy: 0.0345
+Epoch 4/5
+1224/1224 [==============================] - 62s 51ms/step - loss: 3.3675 - accuracy: 0.0346 - val_loss: 3.3673 - val_accuracy: 0.0345
+Epoch 5/5
+1224/1224 [==============================] - 52s 42ms/step - loss: 3.3675 - accuracy: 0.0327 - val_loss: 3.3673 - val_accuracy: 0.0345
+<tensorflow.python.keras.callbacks.History at 0x7f2d8fe6a250>
+
+Epoch 1/5
+1088/1088 [==============================] - 244s 224ms/step - loss: 3.3675 - accuracy: 0.0351 - val_loss: 3.3673 - val_accuracy: 0.0345
+Epoch 2/5
+1088/1088 [==============================] - 243s 223ms/step - loss: 3.3675 - accuracy: 0.0341 - val_loss: 3.3673 - val_accuracy: 0.0345
+Epoch 3/5
+1088/1088 [==============================] - 246s 226ms/step - loss: 3.3675 - accuracy: 0.0341 - val_loss: 3.3673 - val_accuracy: 0.0345
+Epoch 4/5
+1088/1088 [==============================] - 244s 224ms/step - loss: 3.3675 - accuracy: 0.0328 - val_loss: 3.3673 - val_accuracy: 0.0345
+Epoch 5/5
+1088/1088 [==============================] - 241s 222ms/step - loss: 3.3675 - accuracy: 0.0349 - val_loss: 3.3673 - val_accuracy: 0.0345
+<tensorflow.python.keras.callbacks.History at 0x7f47854e1090>
+```
+
+
+## ubuntu 20.04
+
+```python
+Epoch 1/5
+1224/1224 [==============================] - 939s 49ms/step - loss: 3.3675 - accuracy: 0.0331 - val_loss: 3.3673 - val_accuracy: 0.0345
+Epoch 2/5
+1224/1224 [==============================] - 51s 42ms/step - loss: 3.3675 - accuracy: 0.0324 - val_loss: 3.3673 - val_accuracy: 0.0345
+Epoch 3/5
+1224/1224 [==============================] - 51s 42ms/step - loss: 3.3675 - accuracy: 0.0344 - val_loss: 3.3673 - val_accuracy: 0.0345
+Epoch 4/5
+1224/1224 [==============================] - 62s 51ms/step - loss: 3.3675 - accuracy: 0.0346 - val_loss: 3.3673 - val_accuracy: 0.0345
+Epoch 5/5
+1224/1224 [==============================] - 52s 42ms/step - loss: 3.3675 - accuracy: 0.0327 - val_loss: 3.3673 - val_accuracy: 0.0345
+<tensorflow.python.keras.callbacks.History at 0x7f2d8fe6a250>
+
+Epoch 1/5
+1224/1224 [==============================] - 52s 42ms/step - loss: 3.3675 - accuracy: 0.0337 - val_loss: 3.3673 - val_accuracy: 0.0345
+Epoch 2/5
+1224/1224 [==============================] - 51s 42ms/step - loss: 3.3674 - accuracy: 0.0359 - val_loss: 3.3673 - val_accuracy: 0.0345
+Epoch 3/5
+1224/1224 [==============================] - 51s 42ms/step - loss: 3.3675 - accuracy: 0.0338 - val_loss: 3.3673 - val_accuracy: 0.0345
+Epoch 4/5
+1224/1224 [==============================] - 51s 42ms/step - loss: 3.3675 - accuracy: 0.0330 - val_loss: 3.3673 - val_accuracy: 0.0345
+Epoch 5/5
+1224/1224 [==============================] - 51s 42ms/step - loss: 3.3675 - accuracy: 0.0338 - val_loss: 3.3673 - val_accuracy: 0.0345
+<tensorflow.python.keras.callbacks.History at 0x7fd091c16250>
+```
+
+
+## Ubuntu (=20.04 LTS)
